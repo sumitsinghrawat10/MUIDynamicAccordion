@@ -5,6 +5,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import { useState } from "react";
+import Show from "./Show";
 
 import background from "./assests/bg.png"; 
 
@@ -106,6 +107,7 @@ const Doubt = () => {
             </Accordion>
           ))}
       </div>
+<Show/>
     </div>
   );
 };
